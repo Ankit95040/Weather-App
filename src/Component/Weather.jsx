@@ -1,14 +1,14 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './Weather.css';
 
-import clear from '/Users/ankitraj/Desktop/React/Weather-App/Weather/src/assets/clear.png';
-import cloud from '/Users/ankitraj/Desktop/React/Weather-App/Weather/src/assets/cloud.png';
-import drizzle from '/Users/ankitraj/Desktop/React/Weather-App/Weather/src/assets/drizzle.png';
-import humidity from '/Users/ankitraj/Desktop/React/Weather-App/Weather/src/assets/humidity.png';
-import rain from '/Users/ankitraj/Desktop/React/Weather-App/Weather/src/assets/rain.png';
-import search from '/Users/ankitraj/Desktop/React/Weather-App/Weather/src/assets/search.png';
-import snow from '/Users/ankitraj/Desktop/React/Weather-App/Weather/src/assets/snow.png';
-import wind from '/Users/ankitraj/Desktop/React/Weather-App/Weather/src/assets/wind.png';
+import clear from '../assets/clear.png';
+import cloud from '../assets/cloud.png';
+import drizzle from '../assets/drizzle.png';
+import humidity from '../assets/humidity.png';
+import rain from '../assets/rain.png';
+import search from '../assets/search.png';
+import snow from '../assets/snow.png';
+import wind from '../assets/wind.png';
 
 const Weather = () => {
   const inputRef = useRef();
